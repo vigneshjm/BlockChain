@@ -33,3 +33,7 @@ t1 = "Noah sends 6 GC to Mark"
 t2 = "Mark sends 2.3 GC to James"
 t3 = "James sends 4.2 GC to Alisson"
 t4 = "Alisson sends 1.1 GC to Noah"
+
+test = blockchain()
+test.create_block_from_transaction([t1,t2])
+test.display_chain()
